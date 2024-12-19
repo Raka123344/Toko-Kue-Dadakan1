@@ -1,0 +1,246 @@
+/* Styling dengan motif unik dan animasi yang menarik */
+
+/* Latar belakang dengan motif mewah */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f7f0ea, #e2d2c7), 
+                url('data:image/jpeg;base64,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');
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-size: cover, 200px 200px;
+    background-attachment: fixed;
+}
+
+/* Header dengan animasi gradient */
+header {
+    background: linear-gradient(45deg, #ff7a00, #ff1a59);
+    background-size: 200% 200%;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    animation: gradientShift 5s infinite;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+header:hover {
+    background: linear-gradient(45deg, #ffd700, #ff8c00, #ff1a59);
+    background-size: 300% 300%;
+    animation: headerHover 5s infinite;
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+/* Animasi gradient shift */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Animasi hover pada header */
+@keyframes headerHover {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Grid produk */
+.produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Card produk */
+.item-produk {
+    background: linear-gradient(145deg, #ffffff, #f4f4f4);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1), -8px -8px 20px rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: zoomIn 1s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+.item-produk:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(145deg, #fefefe, #fafafa);
+    box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.15), -12px -12px 30px rgba(255, 255, 255, 0.9);
+}
+
+/* Spotlight efek pada produk */
+.item-produk::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.item-produk:hover::before {
+    opacity: 1;
+}
+
+.item-produk img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.item-produk img:hover {
+    transform: scale(1.08) rotate(2deg);
+}
+
+.item-produk h3 {
+    font-size: 1.6em;
+    margin: 15px 0;
+    color: #ff5722;
+}
+
+.item-produk p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Tombol beli dengan efek hover */
+.btn-beli {
+    background: linear-gradient(90deg, #ff7a00, #ff1a59);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(255, 122, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-beli::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: skewX(-45deg);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-beli:hover::after {
+    left: 100%;
+}
+
+.btn-beli:hover {
+    background: linear-gradient(90deg, #ff9d3f, #ff407e);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 122, 0, 0.6);
+}
+
+/* Animasi bounce untuk ikon keranjang */
+.keranjang {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #ff8c00, #ff1a59);
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: bounce 2.5s infinite;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.5);
+    animation: keranjangGlow 2s infinite;
+}
+
+@keyframes keranjangGlow {
+    0% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.5); }
+    50% { box-shadow: 0 0 30px rgba(255, 215, 0, 1), 0 0 60px rgba(255, 215, 0, 0.7); }
+    100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.5); }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-12px);
+    }
+    60% {
+        transform: translateY(-6px);
+    }
+}
+
+/* Footer dengan motif mewah */
+footer {
+    background: linear-gradient(90deg, #222, #333), 
+                url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-0cYadaMcHLhRF6eLTOyTzsyEWXJtXD1Lg&s');
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+    background-size: cover, 200px 200px;
+    background-attachment: fixed;
+}
+
+/* Keyframes untuk fadeIn dan zoomIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Tambahan efek glow pada elemen aktif */
+.active-glow {
+    animation: glowPulse 2s infinite;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.3);
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(255, 215, 0, 0.8), 0 0 50px rgba(255, 215, 0, 0.5);
+    }
+}
+
